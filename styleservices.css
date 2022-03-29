@@ -34,7 +34,9 @@
      background-position: 50% 50%;
      background-size: cover;
    }
-   
+   .w-nav-link.w--current{
+    color: #222222;
+   }
    .navbar {
      padding-bottom: 250px;
      border-radius: 20px;
@@ -542,7 +544,7 @@
    }
    
    .text-span {
-     color: #fff;
+     color: #1c8889;
    }
    
    .text-span-2 {
@@ -1587,7 +1589,7 @@
    }
    
    .bold-text-21 {
-     font-size: 18px;
+     font-size: 15px;
      font-weight: 400;
      text-align: left;
    }
@@ -1889,19 +1891,19 @@
    
    .home {
      font-family: 'Open Sans', sans-serif;
-     color: #fff;
+     color:#1d4e42 !important;
      font-size: 16px;
      font-weight: 600;
    }
    
    .home.w--current {
-     color: #fcfcfc;
+     color: #1d4e42;
    }
    
    .prtfolio {
      font-family: 'Open Sans', sans-serif;
-     color: #fff;
-     font-size: 18px;
+     color: #1c8889;
+     font-size: 16px;
      font-weight: 600;
    }
    
@@ -1927,10 +1929,10 @@
      align-items: center;
      border-style: solid;
      border-width: 1px;
-     border-color: #fff;
+     border-color: #1c8889;
      background-color: rgba(255, 255, 255, 0);
      font-family: 'Open Sans', sans-serif;
-     color: #fff;
+     color: #1c8889;
      font-size: 16px;
      font-weight: 600;
      text-align: center;
@@ -2032,8 +2034,8 @@
      margin-bottom: 14px;
      font-family: 'Open Sans', sans-serif;
      color: #fff;
-     font-size: 18px;
-     font-weight: 600;
+     font-size: 15px;
+     font-weight: 400;
      text-align: left;
    }
    
@@ -2410,7 +2412,7 @@
    
    .home-3 {
      font-family: 'Open Sans', sans-serif;
-     color: #1c8a8c;
+     color: #1c8a8c !important;
      font-size: 16px;
      font-weight: 600;
    }
@@ -2437,8 +2439,8 @@
      margin-left: 10px;
      font-family: 'Open Sans', sans-serif;
      color: #fff;
-     font-size: 18px;
-     font-weight: 600;
+     font-size: 15px;
+     font-weight: 400;
      text-align: left;
      text-decoration: none;
      text-transform: none;
@@ -2730,7 +2732,25 @@
        font-size: 13px;
        line-height: 0px;
      }
-   
+     
+     .footer-style{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-style{
+      display: flex;
+      flex-direction: column;
+    }
+   .prtfolio{
+     color: #fff;
+   }
+   .text-span{
+     color: #fff;
+   }
+   .button--contact-us{
+     color: #fff;
+     border-color: #fff;
+   }
      .partnerwith-h {
        line-height: 16px;
      }
@@ -3092,8 +3112,8 @@
      }
    
      .bold-text-21 {
-       font-size: 10px;
-       line-height: 10px;
+       font-size: 14px;
+       line-height: 20px;
      }
    
      .bold-text-22 {
@@ -3236,7 +3256,7 @@
      }
    
      .bold-text-31 {
-       font-size: 8px;
+       font-size: 12px;
      }
    
      .all-rihts {
@@ -3324,7 +3344,7 @@
      .about-h-2 {
        margin-top: 0px;
        margin-bottom: 8px;
-       font-size: 9px;
+       font-size: 14px;
      }
    
      .all-rihts-2 {
@@ -3490,7 +3510,7 @@
    
      .phone-no-3 {
        margin-left: 8px;
-       font-size: 9px;
+       font-size: 12px;
        line-height: 16px;
        font-weight: 600;
      }
