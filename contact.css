@@ -289,7 +289,15 @@ margin-top: 0px;
   background-color: #000;
   color: #000;
 }
-
+.company-66 {
+  margin-top: 0px;
+  margin-bottom: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
 .background--imges {
   height: 600px;
   margin-top: 0px;
